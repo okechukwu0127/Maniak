@@ -1,0 +1,35 @@
+Recruitment Exercise
+React Native Coding Challenge
+
+Your mission, should you choose to accept it:
+Create a React Native application that consumes APIs and outputs the result.
+
+Requirements:
+
+Important information:
+» The application should have three different screens:
+1. A login screen that with two fields:
+- User email
+- Password
+2. A screen that displays a list of images received from the API. By image it must show:
+- Title
+- Description
+- Image
+3. A logout screen.
+
+Notes
+
+Endpoints
+
+• Login should persist between application launches.
+• Use conventional mobile design/elements, but we don’t need
+anything fancy.
+• Use React Native (Typescript is preferred, but you can use
+Javascript as well)
+
+• POST challenge.maniak.co/api/login
+• Test username: challenge@maniak.co
+• Test password: maniak2020
+• Returns auth token
+• GET challenge.maniak.co/api/images
+• Requires authentication bearer token
